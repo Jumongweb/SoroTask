@@ -14,6 +14,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.100.14",
+    "@tanstack/react-query-devtools": "^5.100.14",
     "@tanstack/react-virtual": "^3.13.24",
     "@types/dagre": "^0.7.54",
     "dagre": "^0.8.5",
@@ -25,6 +27,8 @@
     "zustand": "^5.0.12"
   },
   "devDependencies": {
+    "@stellar/freighter-api": "^6.0.1",
+    "@stellar/stellar-sdk": "^15.1.0",
     "@storybook/addon-essentials": "^8.6.14",
     "@storybook/addon-interactions": "^8.6.14",
     "@storybook/nextjs": "^8.6.18",
